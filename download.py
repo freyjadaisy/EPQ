@@ -11,7 +11,28 @@ sys.path.append(src_path)
 from YARS.src.yars.yars import YARS
 from YARS.src.yars.utils import display_results, download_image
 
-def scrape_subreddit(subreddit_name, limit=500, save_interval=10):
+def extract_all_comment_text(comments):
+    """
+    Recursively extract text from all comments and their replies
+    Returns a single string with all comment text
+    """
+    all_text = []
+    
+    for comment in comments:
+        if isinstance(comment, dict):
+            # Extract the comment body
+            body = comment.get('body', '')
+            if body:
+                all_text.append(body)
+            
+            # Recursively extract text from replies
+            replies = comment.get('replies', [])
+            if replies:
+                all_text.append(extract_all_comment_text(replies))
+    
+    return "\n\n".join(filter(None, all_text))
+
+def scrape_subreddit(subreddit_name, limit=100, save_interval=10):
     miner = YARS()
     filename = f"{subreddit_name}_posts.json"
     
@@ -53,7 +74,8 @@ def scrape_subreddit(subreddit_name, limit=500, save_interval=10):
                 "url": post.get("url", ""),
                 "created_utc": post.get("created_utc", ""),
                 "author": post.get("author", ""),
-                "permalink": permalink  # Store permalink for tracking
+                "permalink": permalink,  # Store permalink for tracking
+                "all_comment_text": extract_all_comment_text(post_details.get("comments", []))  # Add all comment text as one string
             }
             posts_data.append(post_data)
             processed_permalinks.add(permalink)
