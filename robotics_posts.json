@@ -1,0 +1,866 @@
+[
+  {
+    "title": "A couple of decades worth of salvaging motors from stuff",
+    "body": "So, besides little cars and stuff like that, I was never able to really make use of them until recently-ish that I got a 3D printer and learned CAD, so it was time to categorize them.\n\n",
+    "score": 549,
+    "url": "",
+    "created_utc": 1743943881.0,
+    "author": "momo__ib",
+    "permalink": "/r/robotics/comments/1jstepy/a_couple_of_decades_worth_of_salvaging_motors/"
+  },
+  {
+    "title": "From Clone robotics : Protoclone is the most anatomically accurate android in the world.",
+    "body": "",
+    "score": 474,
+    "url": "",
+    "created_utc": 1744223098.0,
+    "author": "BidHot8598",
+    "permalink": "/r/robotics/comments/1jvcx32/from_clone_robotics_protoclone_is_the_most/"
+  },
+  {
+    "title": "I Built a Humanoid Robotic Arm",
+    "body": "I built a humanoid robotic arm for my latest YouTube video but nothing went according to plan. I went through my whole design process, assembly and more demos. Luckily I was able to get some nice shots of the arm in action before it broke. Here I’m using these super nice harmonic actuators and 3D printed all the parts. Stay tuned for next gen and integration with ROS! ",
+    "score": 436,
+    "url": "",
+    "created_utc": 1743946327.0,
+    "author": "kevinwoodrobotics",
+    "permalink": "/r/robotics/comments/1jsu712/i_built_a_humanoid_robotic_arm/"
+  },
+  {
+    "title": "Open Sourcing it! (finally)",
+    "body": "I’m posting this preemptively, but I hope to have everything officially available by the end of the month. I’ve been sitting on these files for a few years now, but it’s about time I open it up to everyone. Honestly, the only reason I haven’t open-sourced it until now has been because of how much work it takes to publish a large project like this.\n\nThe arm is fully functional and 3D printed. The totally cost (with servos, bearings, screws, etc) is just under $400. I’m in the process of creating a full assembly video which I will also link here (YouTube) when it’s done, but I have plenty of editing to do.\n\nAnyway, I hope you guys are interested. It should be significantly cheaper (though admittedly less capable) than other humanoids.",
+    "score": 294,
+    "url": "",
+    "created_utc": 1744483746.0,
+    "author": "MaxwellHoot",
+    "permalink": "/r/robotics/comments/1jxoe70/open_sourcing_it_finally/"
+  },
+  {
+    "title": "Unitree starts RobOlympics | 🇨🇳vs🇺🇸 can be done with irl ESPORTS",
+    "body": "",
+    "score": 248,
+    "url": "",
+    "created_utc": 1744292522.0,
+    "author": "BidHot8598",
+    "permalink": "/r/robotics/comments/1jvy7bv/unitree_starts_robolympics_vs_can_be_done_with/"
+  },
+  {
+    "title": "A way to increase lifting capacity, speed, or extend battery life.",
+    "body": "The big 180 degree servo motors that I use in Robert are rated to have 13kg/cm torque at 7.2V, and the they only run at 5V. I thought that would be enough, but found out that it was just bearly enough to lift the arms at the shoulder joint. Then I had the idea to use bungee chords to pull the arms up so that the resting position is actually in mid air. This way the motor uses some of its torque to pull the arm down, and then it has some momentum when lifting an object, and does not have to spend energy on lifting the arm it self, since it is free floating. I did the same thing in the elbow joint. When I started to think about it then the normal working position of the arms, in most cases, is half bent, like the posture of C-3PO in Star Wars. Not hanging down by the sides of the body. By adding this feature either by using springs or some kind of elastic bands, then the motors have more usable torque, and they can therefore be less powerful, and consume less current, and still produce the same results. The end result of doing this is therefore extended battery life, since the robot needs less energy to lift a particular load. If the motors are not downsized then the result can be either increased speed, or more lifting capacity. Most tasks that robots undertake is lifting something, or carrying objects, therefore this makes perfect sense. They do not need 100% of their torque plus the weight of the arms when lowering the arms. The same principle goes for the legs. We should not get blinded by the shortcomings of the human body, and transfer them to the robots without thinking. In my opinion some kind of spring system should be used in the legs as well, to maximice the usable torque of the motors, or actuators. We normally do not need 100% torque plus the body weight of the robot just to squat down. In most cases you just want maximum force to extend the legs, and then it makes sence to use springs, or something similar, to cancel out the body weight of the robot. This is of course based on assuming that the same motor or actuator is used for both bending and extending the legs or arms.",
+    "score": 219,
+    "url": "",
+    "created_utc": 1744234431.0,
+    "author": "InterviewOk9589",
+    "permalink": "/r/robotics/comments/1jvhgcv/a_way_to_increase_lifting_capacity_speed_or/"
+  },
+  {
+    "title": "16 DOF robotic hand",
+    "body": "Took almost 4 months to complete this robotic hand.\nThe hand uses 16 N20 motors with encoders.\nIt has 16 active DOF, each finger has 3 with thumb having 4.  There are additional 5 passive DOF with each finger having 1. \nSince many parts are so small, 3d printing was not possible ,  I had to mill those using alluminium myself. Few complex alluminium parts  I ordered using JLCCNC service. \n Hopefully I should be able to code basic movements soon and then I will try some reinforcement learning techniques etc.\nThe size of hand is almost 1.5 times of myne. I should be able to reduce the size by 10-15%. But i am planning to replace them with smaller bldc motors and redesign, if everything works out well.\n",
+    "score": 175,
+    "url": "",
+    "created_utc": 1743965042.0,
+    "author": "shegde93",
+    "permalink": "/r/robotics/comments/1jt18uq/16_dof_robotic_hand/"
+  },
+  {
+    "title": "Updates and please Help on this robot! 🙏🏻",
+    "body": "Hey everyone!\n\nIf you remember, I asked for advice a while back on how to improve this little robot I got off AliExpress.\n\nWell, quick update — I attached a rope to it, and it actually worked great for retrieving it from a tunnel (you can see it in the third photo). I used it to check if there was water or if the ground was too bumpy, but luckily everything was fine.\n\nThe only issue I ran into was that the Wi-Fi connection dropped after just 2 meters inside the tunnel.\n\nSo now I need your help again:\nIs it possible to make this little robot wired instead of wireless?\nBasically, I’m thinking of controlling it through a cable connection to avoid losing signal. Any advice or ideas?",
+    "score": 153,
+    "url": "",
+    "created_utc": 1744032269.0,
+    "author": "Tetomariano",
+    "permalink": "/r/robotics/comments/1jtl5qk/updates_and_please_help_on_this_robot/"
+  },
+  {
+    "title": "Robot brainrot",
+    "body": "",
+    "score": 123,
+    "url": "",
+    "created_utc": 1744116833.0,
+    "author": "Necessary-Muscle-255",
+    "permalink": "/r/robotics/comments/1jucu80/robot_brainrot/"
+  },
+  {
+    "title": "Custom SCARA Robot with Ball Spline Screw",
+    "body": "Here is a video of my custom SCARA robot. I wanted to make a SCARA that actually used a ball-spline-screw because to me it is the coolest part of a SCARA arm and something many other DIY designs leave out. If you want to read more about how I designed it I made a post about it on my website.\n\n[https://cadenkraft.com/scara-robotic-arm/](https://cadenkraft.com/scara-robotic-arm/)",
+    "score": 114,
+    "url": "",
+    "created_utc": 1744153356.0,
+    "author": "CKraft11",
+    "permalink": "/r/robotics/comments/1jur7ne/custom_scara_robot_with_ball_spline_screw/"
+  },
+  {
+    "title": "Robot for electronics assembly can now peel off film from adhesive tape",
+    "body": "Hi!\nI with my friend trying to create the robot for electronics assembly.\n \nIn this video the 3d printed arm can autonomously peel off the protective film from the adhesive tape with its fingernail!\n\nThis operation may seem simple, but it is full of randomness and dexterous movements, so it is usually done manually by humans, even for iPhone volume of manufacturing.\n\nWe fine-tuned top opensource model Pi0 for our custom robotic arm to do this autonomously. We chose a complex case where the tape is located on the edge, so you can't slide to it by the surface.\n\nThe robot acts like a human. It carefully scrapes and pokes at the film with micro-movements until it tears off a small piece. Then it goes deeper and bends the film so that it can be easily grasped with the other arm. The adhesive layer stays undamaged in the process.\n\nThis was the most difficult task to automate in our target product. Next, the plan is to speed up the movements and combine all the operations for an end-to-end fully autonomous product assembly. It will be a simple, but real commercial product sold on Amazon. ",
+    "score": 109,
+    "url": "",
+    "created_utc": 1744262914.0,
+    "author": "Wing-Realistic",
+    "permalink": "/r/robotics/comments/1jvqg73/robot_for_electronics_assembly_can_now_peel_off/"
+  },
+  {
+    "title": "Upcoming Mate Competition ROV",
+    "body": "Designed and built this rov from scratch. Waterproofing this weekend, still working on camera housing, and the robotic arms.",
+    "score": 99,
+    "url": "",
+    "created_utc": 1744214627.0,
+    "author": "veggieman123",
+    "permalink": "/r/robotics/comments/1jv9fi8/upcoming_mate_competition_rov/"
+  },
+  {
+    "title": "How Important Is the Waist in Humanoid Robot Design?",
+    "body": "full video: [https://youtu.be/477QG21PAys?si=yQRtfvW8X-yyEz3X](https://youtu.be/477QG21PAys?si=yQRtfvW8X-yyEz3X)",
+    "score": 92,
+    "url": "",
+    "created_utc": 1743945640.0,
+    "author": "meldiwin",
+    "permalink": "/r/robotics/comments/1jstyrv/how_important_is_the_waist_in_humanoid_robot/"
+  },
+  {
+    "title": "Chinese robotics manufacturer left backdoor in product",
+    "body": "Typical crap from china.\n\nhttps://www.axios.com/2025/04/01/threat-spotlight-backdoor-in-chinese-robots-future-of-cybersecurity",
+    "score": 60,
+    "url": "",
+    "created_utc": 1744042090.0,
+    "author": "MurazakiUsagi",
+    "permalink": "/r/robotics/comments/1jtozk7/chinese_robotics_manufacturer_left_backdoor_in/"
+  },
+  {
+    "title": "I’m completely obsessed with Festo. It’s an ideology of hardware design.",
+    "body": "",
+    "score": 60,
+    "url": "",
+    "created_utc": 1744028276.0,
+    "author": "Ok-Blueberry-1134",
+    "permalink": "/r/robotics/comments/1jtju4g/im_completely_obsessed_with_festo_its_an_ideology/"
+  },
+  {
+    "title": "Meet my new robot! Raspberry Pi 5 running Ubuntu 24.04 and ROS2 Jazzy along with a new RealSense D421 stereo depth module.",
+    "body": "",
+    "score": 63,
+    "url": "",
+    "created_utc": 1744382507.0,
+    "author": "Chemical-Hunter-5479",
+    "permalink": "/r/robotics/comments/1jwrjd9/meet_my_new_robot_raspberry_pi_5_running_ubuntu/"
+  },
+  {
+    "title": "LiveU Robocam - NAB 2025",
+    "body": "",
+    "score": 54,
+    "url": "",
+    "created_utc": 1744168358.0,
+    "author": "forestexplr",
+    "permalink": "/r/robotics/comments/1juw49w/liveu_robocam_nab_2025/"
+  },
+  {
+    "title": "Hyundai to buy 'tens of thousands' of Boston Dynamics robots - The Robot Report",
+    "body": "",
+    "score": 56,
+    "url": "",
+    "created_utc": 1744013010.0,
+    "author": "I-T-T-I",
+    "permalink": "/r/robotics/comments/1jtg29l/hyundai_to_buy_tens_of_thousands_of_boston/"
+  },
+  {
+    "title": "Fourier Intelligence Open Sourcing their N1 Humanoid Robot",
+    "body": "Looks like today Fourier Intelligence released/announced their N1 humanoid which they claim will be open source. Has anyone seen any other news about this? I can't seem to find more news about where the docs will be released or when.",
+    "score": 53,
+    "url": "",
+    "created_utc": 1744391973.0,
+    "author": "Background_Sea_4485",
+    "permalink": "/r/robotics/comments/1jwva6o/fourier_intelligence_open_sourcing_their_n1/"
+  },
+  {
+    "title": "The Hottest Pre-IPO Stock? An AI Robotics Startup With Bold Claims, Little Revenue (WSJ free link)",
+    "body": "Hi everyone, I'm Laura at The Wall Street Journal. We published an article about Figure AI and how its founder's promise to build autonomous robots set off an investor frenzy in private markets. \n\nIn February, the startup set out to raise new cash at a nearly $40 billion valuation. The pitch: Figure AI would put more than 200,000 robots across assembly lines and homes by 2029—solving an engineering challenge that has eluded hardware developers for decades.\n\nSkip the paywall here to read the story free: [https://www.wsj.com/tech/the-hottest-pre-ipo-stock-an-ai-robotics-startup-with-bold-claims-little-revenue-b0c1f03b?st=bmpZf7&amp;mod=wsjreddit](https://www.wsj.com/tech/the-hottest-pre-ipo-stock-an-ai-robotics-startup-with-bold-claims-little-revenue-b0c1f03b?st=bmpZf7&amp;mod=wsjreddit)",
+    "score": 54,
+    "url": "",
+    "created_utc": 1744235771.0,
+    "author": "wsj",
+    "permalink": "/r/robotics/comments/1jvhyjx/the_hottest_preipo_stock_an_ai_robotics_startup/"
+  },
+  {
+    "title": "2nd update on Magic the Gathering card sorting machine",
+    "body": "",
+    "score": 43,
+    "url": "",
+    "created_utc": 1744253276.0,
+    "author": "KairiCollections",
+    "permalink": "/r/robotics/comments/1jvnslj/2nd_update_on_magic_the_gathering_card_sorting/"
+  },
+  {
+    "title": "Jerry 3.0: Our ESP32-Powered Maze-Solving Robot",
+    "body": "Our team recently completed Jerry 3.0, a compact maze-solving robot designed for the \"Mobile Robots in the Maze\" competition at Óbuda University. This is the third iteration of our robot, and it incorporates significant improvements based on our experiences from previous years.\n\nJerry 3.0 is equipped with an RFID reader (SPI-based) to interpret directional tags in the maze, three IR sensors for wall detection, and an MPU-6050 accelerometer for precise turning. Its movement is controlled by two DC motors using an L298N motor driver, allowing tank-style steering. The robot's chassis is 3D-printed, optimized for a 16×16 cm footprint and a turning radius of less than 17 cm.\n\nOne of the standout features this year is the integration of a web interface hosted on the ESP32 microcontroller. Using its WiFi capabilities in SoftAP mode, we can connect directly to the robot with a smartphone or laptop. This interface allows us to monitor real-time sensor data, adjust PID parameters on-the-fly, and load different operational profiles (e.g., \"sprint mode\"). This has been invaluable during testing and fine-tuning.\n\nThe competition takes place tomorrow (April 11), where Jerry will compete in challenges such as speed runs, maze discovery, and obstacle navigation. We’ll share results after the event!\n\n# Links:\n\n* [GitHub Repository with Code](https://github.com/asimoq/Jerry3_ESP32_MazeSolvingRobot)\n* [Team Website with Photos &amp; Info](http://teamjerry.hu/)\n* [Official Competition Rulebook](https://kando-szakkoli.uni-obuda.hu/wp-content/uploads/2024/12/Rules_2025_v01.pdf)\n\nFeel free to ask any questions about Jerry’s design or functionality!",
+    "score": 35,
+    "url": "",
+    "created_utc": 1744320528.0,
+    "author": "asimoq",
+    "permalink": "/r/robotics/comments/1jw9c4w/jerry_30_our_esp32powered_mazesolving_robot/"
+  },
+  {
+    "title": "Robodog - NAB Vegas 2025",
+    "body": "",
+    "score": 21,
+    "url": "",
+    "created_utc": 1744168246.0,
+    "author": "forestexplr",
+    "permalink": "/r/robotics/comments/1juw31x/robodog_nab_vegas_2025/"
+  },
+  {
+    "title": "We’re building a GR00T deployment tool for robotic devs — feedback appreciated  in",
+    "body": "\nHey r/robotics,\n\nWe’re two robotic developers who have been experimenting with GR00T and hit a wall — not because the model doesn’t work, but because deploying it was quite effort consuming .\n\nAs it stands, using GR00T in a real robot setup requires:\n\t•\tSpinning up high-end GPU instances (H100/A100 etc.)\n\t•\tDealing with NVIDIA’s server-client setup for inference\n\t•\tManaging cloud environments, containers, and networking\n\t•\tPaying per-hour costs even when idle\n\nEven for technically experienced devs, this might a huge time sink. And for the broader robotics community — especially those without DevOps or cloud infra experience — a complete blocker.\n\nWe realized that what’s missing is an accessible, cost-efficient way to post-train and run GR00T on real robots — without needing to become a cloud engineer.\n\nSo we’re building a plug-and-play platform that lets developers:\n\t•\tConnect their robot\n\t•\tLog in with Hugging Face\n\t•\tClick “Train” or “Run” — and that’s it\n\nBehind the scenes:\n\t•\tWe spin up GPU instances on-demand only when needed\n\t•\tWe handle env setup, security, and deployment\n\t•\tModel weights are stored in the user’s own Hugging Face repo\n\t•\tInference can run continuously or on-trigger, depending on usage\n\t•\tYou only pay for what you actually use (we’re exploring $5–10 monthly access + usage-based pricing, would love your thoughts about that! )\n\nWe’re still in earlydev stages, but the community’s interest — especially from the LeRobot Discord — pushed us to keep going.\n\nThis isn’t a polished product yet(daa😅). We’re still in feedback-gathering mode, and we’d love to hear from:\n\t•\tAnyone who’s tried to run GR00T on a real robot\n\t•\tAnyone who wants to, but hasn’t due to infra complexity\n\t•\tAnyone working on similar toolchains or ideas\n\nIf this sounds interesting, we’ve put up a simple landing page to collect early access signups and guide product direction:\nIf you want to sign up (idk if it’s allowed here) let me know! Would love to share and \nWould love to hear your thoughts suggestions, or skepticism — thanks!\n",
+    "score": 22,
+    "url": "",
+    "created_utc": 1744330590.0,
+    "author": "PureMaximum0",
+    "permalink": "/r/robotics/comments/1jwcwnz/were_building_a_gr00t_deployment_tool_for_robotic/"
+  },
+  {
+    "title": "Repurposing an old vacuum to pick up garbage?",
+    "body": "Absolutely no clue what I am doing fyi.  Essentially I was walking around downtown and was noticing all the garbage lying around.  I wondered how hard could it be to simply make a robot that can detect trash and pick it up?  Figured I could just find code online for garbage detection and avoiding objects etc.  having essentially no experience with any of this I decided to take apart an old robot vacuum and repurpose it to just start learning how this could be done.  I am now in the situation where I have determined I need to replace the microprocessor with my own raspberry pi to take control of the robots parts to repurpose them.  I am wondering how I would connect all the parts back together using a raspberry pi.  Once again I am learning as I go here but I figure it’s definitely doable with some learning.  I could be talking nonsense here.  If someone could help point me in the right direction for how I would go about this I would greatly appreciate it.  ",
+    "score": 19,
+    "url": "",
+    "created_utc": 1744143302.0,
+    "author": "FirefighterOne2690",
+    "permalink": "/r/robotics/comments/1jundcc/repurposing_an_old_vacuum_to_pick_up_garbage/"
+  },
+  {
+    "title": "dARM (dynamic Arm for Robotic Mischief)",
+    "body": "This is my latest project: a 6 DOF, 3d printed robotic arm built using ODrives and BLDC motors.",
+    "score": 18,
+    "url": "",
+    "created_utc": 1743983413.0,
+    "author": "ChoiceInteresting517",
+    "permalink": "/r/robotics/comments/1jt7xr3/darm_dynamic_arm_for_robotic_mischief/"
+  },
+  {
+    "title": "Reinforcement Learning for Robotics is Super Cool! (A interview with PhD Robotics Student)",
+    "body": "Hey, everyone. I had the honor to interview a 3rd year PhD student about Robotics and Reinforcement Learning, what he thinks of it, where the future is, and how to get started.\n\nI certainly learned so much about the capabilities of RL for robotics, and was enlighted by this conversation.\n\nFeel free to check it out!\n\n[https://youtu.be/39NB43yLAs0?si=\\_DFxYQ-tvzTBSU9R](https://youtu.be/39NB43yLAs0?si=_DFxYQ-tvzTBSU9R)",
+    "score": 16,
+    "url": "",
+    "created_utc": 1744411231.0,
+    "author": "OkThought8642",
+    "permalink": "/r/robotics/comments/1jx2pzi/reinforcement_learning_for_robotics_is_super_cool/"
+  },
+  {
+    "title": "Just got Unitree G1 humanoid and here is my hands-on review",
+    "body": "",
+    "score": 15,
+    "url": "",
+    "created_utc": 1744274940.0,
+    "author": "larsevss",
+    "permalink": "/r/robotics/comments/1jvt7ro/just_got_unitree_g1_humanoid_and_here_is_my/"
+  },
+  {
+    "title": "Success is just around the corner.",
+    "body": "",
+    "score": 14,
+    "url": "",
+    "created_utc": 1744303632.0,
+    "author": "PulseStm",
+    "permalink": "/r/robotics/comments/1jw2k0i/success_is_just_around_the_corner/"
+  },
+  {
+    "title": "Kawasaki's wolf-inspired robot lets riders traverse uneven terrain",
+    "body": "",
+    "score": 14,
+    "url": "",
+    "created_utc": 1744002386.0,
+    "author": "LurkerFromTheVoid",
+    "permalink": "/r/robotics/comments/1jtdkuf/kawasakis_wolfinspired_robot_lets_riders_traverse/"
+  },
+  {
+    "title": "Why did the humanoid media Plasticpals disappeared?",
+    "body": "**From 2009-07-23 to 2014-04-07 this passionated guy collected &amp; preserved 527 robots details with videos, majority of humanoids.**\n\nHe also listed all movies and video games related to this universe.\n\nNow only remains his website on Wayback [https://web.archive.org/web/20180126140726/http://www.plasticpals.com/?page\\_id=802](https://web.archive.org/web/20180126140726/http://www.plasticpals.com/?page_id=802)\n\nAnd his inactive YT channel [https://www.youtube.com/@Plasticpals/videos](https://www.youtube.com/@Plasticpals/videos)\n\n**He was a bit early because 10 years later humanoid robots are exploding, would be good if he can come back.**\n\nOther inactive medias:\n\n* Roborama [https://www.youtube.com/@roborama/videos](https://www.youtube.com/@roborama/videos)\n* Communist Robot [https://www.youtube.com/@CommunistRobot/videos](https://www.youtube.com/@CommunistRobot/videos)",
+    "score": 11,
+    "url": "",
+    "created_utc": 1744444584.0,
+    "author": "VincentBounce",
+    "permalink": "/r/robotics/comments/1jxc7ym/why_did_the_humanoid_media_plasticpals_disappeared/"
+  },
+  {
+    "title": "Chinese robotics manufacturer left backdoor in product",
+    "body": "",
+    "score": 9,
+    "url": "",
+    "created_utc": 1744154801.0,
+    "author": "OwnDragonfruit6917",
+    "permalink": "/r/robotics/comments/1jurq6l/chinese_robotics_manufacturer_left_backdoor_in/"
+  },
+  {
+    "title": "What does it even do? is there a use of this robot?",
+    "body": "People often ask me why did you build a robotic dog and what purpose does it solve and i try to tell them that most places where humans cant go this robot can go and perform the task for you and try telling about SPOT Robot(BOSTON DYNAMICS) still people often contradict and say that \"nahh its of no use and is not solving any problem robotics(considering humanoids animal robots) are just for fun and entertainment purposes\"  \ni find robotics really interesting but i cant disagree with them since robotics has not become like fully industry oriented and will take time and research for sure",
+    "score": 9,
+    "url": "",
+    "created_utc": 1744030855.0,
+    "author": "PrudentSearch7672",
+    "permalink": "/r/robotics/comments/1jtkoeo/what_does_it_even_do_is_there_a_use_of_this_robot/"
+  },
+  {
+    "title": "ROS 1 End-of-Life set for May 31, 2025",
+    "body": "",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744320432.0,
+    "author": "OpenRobotics",
+    "permalink": "/r/robotics/comments/1jw9avd/ros_1_endoflife_set_for_may_31_2025/"
+  },
+  {
+    "title": "Robot arm for automated espresso machine",
+    "body": "Hello i am a software dev and i have this stupid idea. \n\nI want make my own IPhone app that is connected to a robot arm. \n\nI want to Press a button on my phone. And then i want a robot arm to take my porta filter Press it Down on my grinder.\n\nThen insert into machine, then grab coffee cup and then Press start on my machine. \n\nI was thinking of buying a robot arm with a budget of around 1k usd, is this viable with my budget and if so does anyone have any recommendations on what/which robot arm to buy? \n",
+    "score": 6,
+    "url": "",
+    "created_utc": 1744148271.0,
+    "author": "AndreaMorenoo",
+    "permalink": "/r/robotics/comments/1jupbuv/robot_arm_for_automated_espresso_machine/"
+  },
+  {
+    "title": "Help Finding A T-Slot That Fits",
+    "body": "Do you guys know where I can find T-Slots that will fit this aluminum extrusion piece. The width of the “T” is 23.3mm and the width of the opening to the slot is 14mm. The size of the extrusion piece is 4cm x 4cm.",
+    "score": 6,
+    "url": "",
+    "created_utc": 1744123647.0,
+    "author": "DuganNash93",
+    "permalink": "/r/robotics/comments/1jufctj/help_finding_a_tslot_that_fits/"
+  },
+  {
+    "title": "FIRST Robotics Build",
+    "body": "Hey everyone! I made this video for work that highlights these students building a robot to compete in a FIRST competition and I could really use your help in getting the views up on YouTube. My goal is 30K and anything would help 🤞🏻",
+    "score": 6,
+    "url": "",
+    "created_utc": 1744413777.0,
+    "author": "KlutzyReflection8238",
+    "permalink": "/r/robotics/comments/1jx3lq7/first_robotics_build/"
+  },
+  {
+    "title": "ROS News of the week for April 7th, 2025",
+    "body": "",
+    "score": 4,
+    "url": "",
+    "created_utc": 1744401466.0,
+    "author": "OpenRobotics",
+    "permalink": "/r/robotics/comments/1jwz141/ros_news_of_the_week_for_april_7th_2025/"
+  },
+  {
+    "title": "Impressive.",
+    "body": "",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744172974.0,
+    "author": "Ok-Blueberry-1134",
+    "permalink": "/r/robotics/comments/1juxg90/impressive/"
+  },
+  {
+    "title": "Seeking guidance for my career",
+    "body": "Hi everyone, my first post here!\nI'm a Robotics Engineer with a Masters in Mechatronics and 2 years of experience developing software (control, navigation, ros nodes) for an autonomous vehicle. In my current job there's only another engineer, I do plenty by myself and sometimes I feel I would benefit from more experienced colleagues in my job.\nNow I managed to get offers from 2 companies: company A is a bigger international company and has a role in software engineering for robotics, where I would work with other ~10 engineers writing code to interface with robotics hardware. Company B is a startup that develops ground robots and the role is for a Navigation and Test engineer. At \"A\" I would mainly write software and test on hardware but not develop anything new or more \"behaviour\" things for robotics like GNC or perception, at least at first.\n\nCan any of you discuss similar experience where you had to choose between a bigger company, with more experienced personal vs a company where your role is more appealing and \"fun\"? Thinking on a Robotics Engineer Career, and not only a software engineer, which you do you think would be best in the long term?",
+    "score": 4,
+    "url": "",
+    "created_utc": 1744146143.0,
+    "author": "ToeAdministrative136",
+    "permalink": "/r/robotics/comments/1juohzk/seeking_guidance_for_my_career/"
+  },
+  {
+    "title": "Finally got thumbs!",
+    "body": "https://preview.redd.it/q661jpj72ote1.jpg?width=4032&amp;format=pjpg&amp;auto=webp&amp;s=64a0f61ddf91353ddf5df8002844e144d0f33151\n\nhttps://preview.redd.it/3mnsmlj72ote1.jpg?width=4032&amp;format=pjpg&amp;auto=webp&amp;s=262d75d0ef64821937f5aab388f43894a0833671\n\nI've seen a lot of other people posting their work in progress robotics projects, so I thought I'd share mine. It's got a long way to go, but it finally has a real thumb, so there's only so much longer I can put off writing some kind of software and making some PCBs...",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744142308.0,
+    "author": "Searching-man",
+    "permalink": "/r/robotics/comments/1jumyqb/finally_got_thumbs/"
+  },
+  {
+    "title": "Substitute parts for motors mentioned in a paper",
+    "body": "Hi all,\n\nI was reading this paper for university, and I am attempting to recreate it. It mentions some hardware that seems unavailable from the original manufacturer (DJI) in Europe. I would like to know if anyone has had some experience with this hardware and could recommend substitutes easily available in the EU.\n\nThe two components in question are:  \n\\- M2006, DJI: [https://www.robomaster.com/en-US/products/components/detail/1277](https://www.robomaster.com/en-US/products/components/detail/1277)  \n\\- Robomaster Development Board, type C, DJI [https://www.robomaster.com/en-US/products/components/general/development-board](https://www.robomaster.com/en-US/products/components/general/development-board)\n\n  \nthe paper is available at: [https://www.cell.com/device/fulltext/S2666-9986(24)00603-3](https://www.cell.com/device/fulltext/S2666-9986(24)00603-3)\n\n  \n,",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744031625.0,
+    "author": "Nasuraki",
+    "permalink": "/r/robotics/comments/1jtkxyk/substitute_parts_for_motors_mentioned_in_a_paper/"
+  },
+  {
+    "title": "For those who need ROS1 on Ubuntu 24",
+    "body": "",
+    "score": 4,
+    "url": "",
+    "created_utc": 1744497578.0,
+    "author": "Yalikesis",
+    "permalink": "/r/robotics/comments/1jxtd6v/for_those_who_need_ros1_on_ubuntu_24/"
+  },
+  {
+    "title": "Not sure If this is the right place but anyone know what kind of controller I would need for this motor",
+    "body": "",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744492036.0,
+    "author": "albinorhino8588",
+    "permalink": "/r/robotics/comments/1jxrfwy/not_sure_if_this_is_the_right_place_but_anyone/"
+  },
+  {
+    "title": "Dedicated G1 developer subreddit",
+    "body": "As more and more are getting their G1 delivered I wanted to create a subreddit dedicated to G1 development: r/UnitreeG1 \n\nFeel free to join and contribute. Ask questions if you have problems or post projects/hacks that you were able to do on it. I hope we get a strong community together ",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744291019.0,
+    "author": "Low_Insect2802",
+    "permalink": "/r/robotics/comments/1jvxo5i/dedicated_g1_developer_subreddit/"
+  },
+  {
+    "title": "Defence tech startup ARX targets 1,800 land drones a year at new UK plant",
+    "body": "",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744272536.0,
+    "author": "HourExternal9335",
+    "permalink": "/r/robotics/comments/1jvsp8g/defence_tech_startup_arx_targets_1800_land_drones/"
+  },
+  {
+    "title": "Ball Finding Robot",
+    "body": "Hello! I am trying to create a ball-finding robot in a simulation app. It is 4WD and has a stationary camera on the robot. I am having a hard time trying to figure out how to approach my data collection and the model I AI Training/ML model I am supposed to use. I badly need someone to talk to. Thank you!",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744009981.0,
+    "author": "lNDI0",
+    "permalink": "/r/robotics/comments/1jtfdxf/ball_finding_robot/"
+  },
+  {
+    "title": "I feel very heavy",
+    "body": "",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744541972.0,
+    "author": "Ok-Blueberry-1134",
+    "permalink": "/r/robotics/comments/1jy53n2/i_feel_very_heavy/"
+  },
+  {
+    "title": "Help with DH parameters",
+    "body": "I am trying to write the DH parameter tavle for my robot. However, i don't think the values are correct (might be an issue with the frames - not so sure about them as well). Can anyone help?",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744406074.0,
+    "author": "Internal_Brain_7170",
+    "permalink": "/r/robotics/comments/1jx0tlm/help_with_dh_parameters/"
+  },
+  {
+    "title": "Basic Robotic Arm Kit - Noob",
+    "body": "Hello, I am looking to create a robotic arm that pulls cylinders from a rack and drops them into a tube. This is a very basic robot that should only require 3 axis. I am very green to robotics but have a basic understanding of motors and such. I was looking to see if there was a basic kit that I could buy to get to know how to program, design and such for this project. The final design I plan on designing myself with BLDC motors using FOCmini controllers, I think? I want to use Brushless motors with gearbox's because I would like the experience with them, although I am not against using NEMA stepper motors. Any thoughts or ideas are appreciated.",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744292819.0,
+    "author": "Final_Shop_6128",
+    "permalink": "/r/robotics/comments/1jvyb8v/basic_robotic_arm_kit_noob/"
+  },
+  {
+    "title": "Robot Perception: 3D Object Detection From 2D Bounding Boxes",
+    "body": "Is it possible to go from 2D robot perception to 3D?\n\nMy article on 3D object detection from 2D bounding boxes is set to explore that.\n\nThis article, the third in a series of simple robot perception experiments (code included), covers:\n\n1. Detecting custom objects in images using a fine-tuned YOLO v8 model.\n2. Calculating disparity maps from stereo image pairs using deep learning-based depth estimation.\n3. Building a colorized point cloud from disparity maps and original images.\n4. Projecting 2D detections into 3D bounding boxes on the point cloud.\n\nThis article builds upon my previous two:\n\n1. Prompting a large visual language model (SAM 2).\n2. Fine-tuning YOLO models using automatic annotations from SAM 2.",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744246531.0,
+    "author": "carlos_argueta",
+    "permalink": "/r/robotics/comments/1jvlns8/robot_perception_3d_object_detection_from_2d/"
+  },
+  {
+    "title": "Are there any advanced LiDAR sensors at around 1500 CAD?",
+    "body": "I am developing a non-specialized semi-amphibious quadrupedal robot, (Like Spot, but on Russian steroids) that needs to be able to see through water at a reasonable depth, and accurately determine the distance (and possibly even motion) of 3D objects up to 5m away, maybe more. I would need something that can withstand vibration, and reliably capture objects even when in motion. (Basically something that can reliably detect objects even when doing complex actions such as climbing stairs, wading through water, jumping, etc.) Thanks! ",
+    "score": 4,
+    "url": "",
+    "created_utc": 1744165247.0,
+    "author": "DiscountManul",
+    "permalink": "/r/robotics/comments/1juv5r9/are_there_any_advanced_lidar_sensors_at_around/"
+  },
+  {
+    "title": "Wearable Exoskeleton for Parkinson’s Gait - Rackenzik",
+    "body": "",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744138706.0,
+    "author": "Exchange-Internal",
+    "permalink": "/r/robotics/comments/1julit6/wearable_exoskeleton_for_parkinsons_gait_rackenzik/"
+  },
+  {
+    "title": "Unitree G1 - Battery - Austin, TX",
+    "body": "Does anyone have a Unitree G1 battery in or around Austin, TX?\n\nWe paid a fortune to get our robot down to a conference the batteries were denied and shipped back to NC.\n\nWe will make a worth while offer for a couple hours of use.\n\n",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744131955.0,
+    "author": "Workingmama2314",
+    "permalink": "/r/robotics/comments/1juiprj/unitree_g1_battery_austin_tx/"
+  },
+  {
+    "title": "Taylor Farms Acquires agri robotics startup FarmWise to strengthen Ag-Tech strategy",
+    "body": "",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744044113.0,
+    "author": "EconomyAgency8423",
+    "permalink": "/r/robotics/comments/1jtpt71/taylor_farms_acquires_agri_robotics_startup/"
+  },
+  {
+    "title": "Visual-Inertial Optimization ORB_SLAM3 like with g2o (Graph optimization)",
+    "body": "I'm trying to replicate the optimization functionality from ORB\\_SLAM3 using a newer version of g2o. I understand graph optimization in theory, but I'm struggling with the practical use of the library—especially since there are no examples of inertial optimization, aside from the ORB\\_SLAM3 types (which aren't compatible with the current version of g2o).\n\n\n\nHas anyone implemented similar functionality in their project and could share an example of custom vertices and edges for optimization? Or maybe point me to a project with similar functionality that I can use as a reference?\n\n\n\nI find it really difficult to understand how g2o works, especially because there’s no proper documentation on how to use it.\n\n",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744023840.0,
+    "author": "Familiar-Ranger687",
+    "permalink": "/r/robotics/comments/1jtikgu/visualinertial_optimization_orb_slam3_like_with/"
+  },
+  {
+    "title": "About ultrasonic sensors for a Science Investigatory Project (SIP)",
+    "body": "Hello everyone! I am a student currently researching more about ultrasonic sensors. \n\nFor context, we are currently conducting a Science Investigatory Project (SIP) in my school. My team has developed a device, a boat, to be able to roam around a specific programed range from land to suck in trashes and to clean our seas/shores. We have been trying to look for sensors perfect for this. And I would like to ask for your help to kindly recommend us sensors.\n\nBut, the sensor we currently have our eyes on is an ultrasonic sensor from arduino. As to what we have researched, an ultrasonic sensor is able to be coded to only work in a specific range and be able to detect trashes. But I am still skeptical if there are other sensors that would work better for this job. Is the ultrasonic sensor from arduino to do what we aim for? ",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744464362.0,
+    "author": "Comfortable-Bass-746",
+    "permalink": "/r/robotics/comments/1jxh98o/about_ultrasonic_sensors_for_a_science/"
+  },
+  {
+    "title": "build a handheld lidar",
+    "body": "I’m currently working as an ML Engineer at a tech company, and I’ve been involved in several AI and computer vision projects. However, I haven’t had any prior experience with LiDAR or robotics. Recently, I got the opportunity to work on building a handheld LiDAR scanner using the Ouster OS1 sensor and a Jetson Nano. Since I’m new to this field, I’m not sure where to start. Could anyone suggest a roadmap to help me get started and successfully complete this project?",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744406225.0,
+    "author": "Away-Sky-9130",
+    "permalink": "/r/robotics/comments/1jx0vn7/build_a_handheld_lidar/"
+  },
+  {
+    "title": "Hobbyist modifying Hungry Hippos for accessibility — servo torque issue",
+    "body": "Hi all — I’m a hobbyist modifying a Hungry Hungry Hippos game to use servos and adaptive switches so a physically challenged child can play.\n\nI’m currently using Hitec HS-485HB analog servos powered by a 6V 10A supply. They’re mounted and working but they don’t have quite enough torque to complete the full range of motion. The issue isn’t just finishing the travel — the hippos need to start with a bit of a snap to get the right physics and lift the head up to grab marbles.\n\nI’m wondering whether I should invest in stronger servos (recommendations welcome, ideally same form factor) or focus more on tweaking the geometry and reducing internal friction in the plastic parts. \n\nThanks in advance for any advice!",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744395893.0,
+    "author": "spicychickennpeanuts",
+    "permalink": "/r/robotics/comments/1jwwun7/hobbyist_modifying_hungry_hippos_for/"
+  },
+  {
+    "title": "LOOK MA, NO HANDS: With “Drone in a Box,” UAVs Become Fully Autonomous",
+    "body": "",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744322208.0,
+    "author": "Into_the_Mystic_2021",
+    "permalink": "/r/robotics/comments/1jw9yrb/look_ma_no_hands_with_drone_in_a_box_uavs_become/"
+  },
+  {
+    "title": "【Help Me Choose】NEU vs UMD Robotics Master's – Lab Access, Internships, and Career Outlook?",
+    "body": "Hi everyone,\n\nI’ve been admitted to the Robotics Master’s programs at **Northeastern University (NEU)** and **University of Maryland (UMD)**. I’m currently working in Europe, but I plan to pursue graduate studies in the U.S. to deepen my expertise in robotics.\n\nI would really appreciate any advice or insights from current students, alumni, or those familiar with these programs. 🙏\n\n# 🎯 My goals:\n\n1. Join a **research lab** to work on robotics-related projects (possibly consider PhD afterward)\n2. Gain **hands-on experience** through **internships or co-op**\n3. Eventually find a **robotics-related job in the U.S.**\n\n# 🏫 School Overview &amp; My Observations:\n\n# Northeastern University (NEU)\n\n✅ Pros:\n\n* Strong **Co-op program**, flexible internship options\n* **Boston location** – robotics companies and startups nearby\n* Thesis option available (if selected), potential lab access\n* Large alumni network, possibly better career networking\n\n⛔ Concerns:\n\n* Large cohort – **competition for research labs might be tough**\n* **Expensive** (self-funded), and if I don’t secure a lab position, the ROI of a purely coursework-based degree is questionable\n\n# University of Maryland (UMD)\n\n✅ Pros:\n\n* Strong in engineering, more **research-oriented environment**\n\n⛔ Concerns:\n\n* The **MEng program doesn’t offer a thesis**, so lab involvement must be self-initiated\n* Some labs are tied to **government/defense contracts**, which might limit international student access\n* Less tech-focused location compared to Boston (job market concern)\n\n# ❓ Core Questions:\n\n1. **Research Opportunities**: How difficult is it to join a lab as a Master's student at NEU or UMD? Are faculty members willing to take MS students on research projects? Are RA positions common?\n2. **Internship / Career Impact**: How much of an edge does NEU’s co-op and Boston location give in finding **robotics jobs or internships**? What kind of outcomes do UMD robotics master’s students typically have?\n3. **Risk vs. Reward**: If I **don’t get into a lab**, is a **pure coursework degree** from either school still worth it (given the high tuition)? Would staying in Europe and continuing to work (with self-study/online learning) be more cost-effective long-term?\n\nI’ve already reached out to a few professors at both schools to express interest in research but haven’t heard back yet.  \nThat’s why I’m trying to better understand the **realistic opportunities** for MS students before committing to either program.\n\nAny advice or experiences would be greatly appreciated! Thank you so much 🙏",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744193658.0,
+    "author": "SpecificBusiness7919",
+    "permalink": "/r/robotics/comments/1jv2a8p/help_me_chooseneu_vs_umd_robotics_masters_lab/"
+  },
+  {
+    "title": "Help me remember the robot",
+    "body": "Some time ago I’ve seen a post about the robot which helped a man move a huge sort of tube without any effort and cannot find any information since. It was some kind of white platform with wheels and an arm which was holding the tube. It had friction and gravity compensation so the tube was like floating in the air and a man could grab it and move whenever he needed to. Please let me now if you are familiar with what I’m talking about.\n",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744103003.0,
+    "author": "_IloveAE_",
+    "permalink": "/r/robotics/comments/1ju93r3/help_me_remember_the_robot/"
+  },
+  {
+    "title": "SoftMotion Drive Interface (SDI) Plug-in Feature Compatibility with third party motor/driver",
+    "body": "I am a graduate student currently developing an RT setup where I need a servo and driver. I’m considering buying a servo from a renowned brand (Sanyo Denki, Mitsubishi, Parker). However, the SDI plugin is only available for 32-bit LabVIEW. Can anyone confirm if a 64-bit plugin is available?\n\nI am using LabVIEW 2022, and all the SDI plugins I’ve found are for 32-bit. I have contacted the motor company as well, but I haven’t received any reply yet. I’m also attaching all the pictures.",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744100739.0,
+    "author": "pri_sbeendead",
+    "permalink": "/r/robotics/comments/1ju8m6c/softmotion_drive_interface_sdi_plugin_feature/"
+  },
+  {
+    "title": "robot arm",
+    "body": "any tips for my first robot arm ,uses sg90 servos.\n\nI think its 5 dof but i could be wrong\n\npls ignore the gripper im working on it\n\nhttps://preview.redd.it/5b65whs0ygte1.png?width=1919&amp;format=png&amp;auto=webp&amp;s=bcd98094e189c106b985428f3c47f9fc3a01513c\n\ngo easy im 12",
+    "score": 2,
+    "url": "",
+    "created_utc": 1744056091.0,
+    "author": "data222222",
+    "permalink": "/r/robotics/comments/1jturo0/robot_arm/"
+  },
+  {
+    "title": "Joining CMU MRSD — Looking to connect with current students for advice!",
+    "body": "Hey everyone!\n\nI’ll be joining the MRSD (MS in Robotics) program at CMU this fall, and I’d love to connect with current students or recent grads to get some honest insights about the experience.\n\nCouple of things I’m curious about:\n\nHow’s the program overall? Any regrets or things you wish you knew before joining?\n\nWhich technical electives would you recommend for the first semester?\n\nHow’s the job market looking for MRSD grads — does the program help you stand out?\n\nAny real chance of earning during the course (TA/RA gigs)? What’s the pay like?\n\nCan MRSD students get involved in research labs?\n\nAny underrated opportunities/resources that people tend to overlook?\n\nIs the ROI worth it for someone coming on a full loan (~1.5 Cr INR)?\n\nWhat’s the alumni network like — helpful for job hunting?\n\nWhen did you start applying for jobs/internships? Any timeline tips?\n\nHow helpful are career services — fairs, resume reviews, networking events?\n\nAny tips for standing out to robotics companies?\n\n\nAlso — what’s the day-to-day life like? Do you get time for side projects or hobbies, or is it a full grind?\n\nWould really appreciate any advice, or if anyone’s open to a quick chat or call — that’d be amazing too. Feel free to DM!\n\nThanks in advance!",
+    "score": 2,
+    "url": "",
+    "created_utc": 1743990870.0,
+    "author": "Opening_Chemical_981",
+    "permalink": "/r/robotics/comments/1jta9gt/joining_cmu_mrsd_looking_to_connect_with_current/"
+  },
+  {
+    "title": "Can I use a Rev Core Hex Motor to build a quadruped",
+    "body": "It’s my assumption that for quadrupeds, the lighter the better. Rev Core Hex Motors are both on hand, cheap, and really light. They’re decently strong and fast, but I will be using robotic actuators. Would it be a good idea to make the legs of my quadrupeds, something like the Boston Robotics SPOT, out of Rev Core Hex Motors?",
+    "score": 2,
+    "url": "",
+    "created_utc": 1743975286.0,
+    "author": "Dear_Web4416",
+    "permalink": "/r/robotics/comments/1jt54wd/can_i_use_a_rev_core_hex_motor_to_build_a/"
+  },
+  {
+    "title": "Nanorobots in Medicine - Rackenzik",
+    "body": "",
+    "score": 2,
+    "url": "",
+    "created_utc": 1743956609.0,
+    "author": "Exchange-Internal",
+    "permalink": "/r/robotics/comments/1jsxyld/nanorobots_in_medicine_rackenzik/"
+  },
+  {
+    "title": "How can I print the rotating arm - Link in post",
+    "body": "",
+    "score": 2,
+    "url": "",
+    "created_utc": 1743950228.0,
+    "author": "Recent-Success-1520",
+    "permalink": "/r/robotics/comments/1jsvjss/how_can_i_print_the_rotating_arm_link_in_post/"
+  },
+  {
+    "title": "Not stabilized",
+    "body": "I'm building a two-wheeled self-balancing robot with an ESP32, MPU6050, L298N driver, and two RS555 motors (no encoders), powered by a 12V 2A supply. The robot (500g, 26 cm height, 30 cm wheelbase) fails to stabilize or respond to WiFi commands (stabilize, forward, reverse), with motors spinning weakly despite 100% PWM (255). MPU6050 calibration struggles (e.g., Accel X: 2868–6096, Z: 16460–16840, alignment errors), causing pitch issues and poor PID control (Kp=50.0, Ki=0.05, Kd=7.0, Kalman filter). Suspect power (2A too low), L298N voltage drop, high CG, or small wheels (&lt;5 cm?). Need help with calibration, torque, PID tuning, or hardware fixes",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744513119.0,
+    "author": "goardan",
+    "permalink": "/r/robotics/comments/1jxy3ve/not_stabilized/"
+  },
+  {
+    "title": "Not stabilize",
+    "body": " I'm building a two-wheeled self-balancing robot with an ESP32, MPU6050, L298N driver, and two RS555 motors (no encoders), powered by a 12V 2A supply. The robot (500g, 26 cm height, 30 cm wheelbase) fails to stabilize or respond to WiFi commands (stabilize, forward, reverse), with motors spinning weakly despite 100% PWM (255). MPU6050 calibration struggles (e.g., Accel X: 2868–6096, Z: 16460–16840, alignment errors), causing pitch issues and poor PID control (Kp=50.0, Ki=0.05, Kd=7.0, Kalman filter). Suspect power (2A too low), L298N voltage drop, high CG, or small wheels (&lt;5 cm?). Need help with calibration, torque, PID tuning",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744512881.0,
+    "author": "goardan",
+    "permalink": "/r/robotics/comments/1jxy1jv/not_stabilize/"
+  },
+  {
+    "title": "3mm D to 1/2\" hex?",
+    "body": "Trying to directly connect a 3mm d motor shaft to a 1/2 inch hex wheel hub bore. Anywhere I can buy this? If not what is another solution I can do to connect these components. I have a 3d printer with some cad experience available to me if necessary. Driving the motor on flat controlled areas, so durability isn't insanely important.",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744487919.0,
+    "author": "Fun_Store9452",
+    "permalink": "/r/robotics/comments/1jxpyaq/3mm_d_to_12_hex/"
+  },
+  {
+    "title": "Understanding the Publish-Subscribe Mechanism in ROS 2!",
+    "body": "",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744482122.0,
+    "author": "Robotics_Content_Lab",
+    "permalink": "/r/robotics/comments/1jxnse3/understanding_the_publishsubscribe_mechanism_in/"
+  },
+  {
+    "title": "Help with installing ROS2 stuck at install QT5 step",
+    "body": "Hi All Im working on installing ROS2 on my laptop following these instructions \n\n  \n[https://docs.ros.org/en/humble/Installation/Windows-Install-Binary.html#install-qt5](https://docs.ros.org/en/humble/Installation/Windows-Install-Binary.html#install-qt5)\n\n  \nIm at the install qt5 step \n\nhttps://preview.redd.it/yjbjsgo9yeue1.png?width=963&amp;format=png&amp;auto=webp&amp;s=6fe532e1462c3527c9c45944b098c0f8cd17cc4c\n\nbut My laptop wont even open/unzip the file folder for qt5 to allow me to run the installer any one else have a smmiliar issue? its so strange file explorer just locks up every time i try to do anything with this file \n\nhttps://preview.redd.it/zn8g701gyeue1.png?width=1154&amp;format=png&amp;auto=webp&amp;s=c8e60c84630f983f5eb9053221b2f886710480ad\n\n  \n",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744467874.0,
+    "author": "Emergency_Writer3765",
+    "permalink": "/r/robotics/comments/1jxigr2/help_with_installing_ros2_stuck_at_install_qt5/"
+  },
+  {
+    "title": "help me build a software stack for auv",
+    "body": "hi ,\n\ni saw an abandoned auv project of one of my seniors in college, he made a base auv with a 6thruster configuration , a sterio cam, pixhawk ,jetson nano. though he got all these he wasnt able to continue with the project due to covid ,last year me any my friends say this project in one of my professors labs and he said we can overtake and complete it. now we figured out how to run it using a tether but we dont have any ideas on how to convert this into a fully autonomous vehicle. our current goal is to take this bot and compete in SAUVC next year.\n\nif anyone knows anything about this pls help\n\nspecific ask: ros2 and gazebo simulation ,issac ros integration , going inside a circle underwater, line detection and follower",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744465450.0,
+    "author": "BumblebeeLive9493",
+    "permalink": "/r/robotics/comments/1jxhme1/help_me_build_a_software_stack_for_auv/"
+  },
+  {
+    "title": "Servo Driver I2C connection with NI MyRio",
+    "body": "Currently using the NI myRio to hopefully power 16 Servos using the PCA9685 Adafruit 16 Channel Servo Driver. However Im facing difficulties with the construction of the Block Diagram using the I2C blocks - I've scoured rhe internet for resources and have tried taking the Block Diagram, inputting the correct slave address, then sending the bit equivalent of the PWM signal i want to send but it did not work. Not sure if I had done something wrong, any help whatsoever would be much appreciated!",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744406218.0,
+    "author": "Kyrios_the_Great",
+    "permalink": "/r/robotics/comments/1jx0vkf/servo_driver_i2c_connection_with_ni_myrio/"
+  },
+  {
+    "title": "Need help with Isaac Sim. How to script a basic pick and place routine from scratch in Isac Sim 4.5.0?",
+    "body": "Hi everyone. I can't for the life of me create a simple pick-and-place routine in Isaac Sim. I'm using 4.5.0 and follow the tutorials easily but when doing my own, and importing robots on my own, or simply adding the USD file to the space, nothing ever runs (python scripting). \n\nAnyone able to share some helpful ways to begin doing this on my own? Or is anyone willing to jump on a Zoom call with me for 30-60 min one of these days so I can pick your brain? Any help would be appreciated. ",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744405577.0,
+    "author": "ToronoYYZ",
+    "permalink": "/r/robotics/comments/1jx0mrf/need_help_with_isaac_sim_how_to_script_a_basic/"
+  },
+  {
+    "title": "Robot camera Project question",
+    "body": "I once read a story about a group that conducted a project where they created a little person with cameras in it and encouraged people to give it rides across Europe. I tried Google but can’t find the story. Does someone remember this? ",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744399282.0,
+    "author": "monkeyboy808",
+    "permalink": "/r/robotics/comments/1jwy6p9/robot_camera_project_question/"
+  },
+  {
+    "title": "Drop some nice (minimum BS) discord server to discuss about Robotics and learn from individuals",
+    "body": "You know a server where people are very knowledgeable and passionate about robotics and rising technologies cuz yk Im very new to this field and i wanna learn from people by interacting with them.",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744391815.0,
+    "author": "Manaswi__67",
+    "permalink": "/r/robotics/comments/1jwv7xl/drop_some_nice_minimum_bs_discord_server_to/"
+  },
+  {
+    "title": "Best Servo Motor?",
+    "body": "Hello! I'm looking for a most accurate servo motor that is fast, small (mico servo size), and affordable (if possible)  what is the best out there right now?",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744347369.0,
+    "author": "Civil-Koala3970",
+    "permalink": "/r/robotics/comments/1jwhzir/best_servo_motor/"
+  },
+  {
+    "title": "Dynamic Loads in Manipulators: 3D Visualization Insights - Rackenzik",
+    "body": "Dynamic loads play a huge role in the performance and reliability of robotic manipulators, especially when it comes to precision and structural durability. These loads are generated by the manipulator's own mass while it's in motion, and if not properly accounted for, they can impact the accuracy and lifespan of the system.\n\nI came across an interesting study that explores new methods for analyzing and visualizing distributed dynamic loads in manipulators. The researchers used Maple 2023 software to create interactive 3D models that show how these loads behave based on the manipulator’s self-weight. They also developed algorithms aimed at improving the design process.\n\nCompanies like ReWalk Robotics and Ekso Bionics are already doing some impressive work in this area, pushing the boundaries of dynamic load research and manipulator technology.\n\nCurious to hear thoughts from anyone working with robotics — how do you handle dynamic loads in your projects? Are there particular tools or approaches you’ve found effective?",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744226768.0,
+    "author": "Exchange-Internal",
+    "permalink": "/r/robotics/comments/1jvef0x/dynamic_loads_in_manipulators_3d_visualization/"
+  },
+  {
+    "title": "Vex IQ generation 1 brain with ESP32 emulating a controller?",
+    "body": "Has anyone gotten an ESP32 to emulate a vex IQ gen 1 controller over the tether port. My robotics club has this old clawbot kit that did not come with a controller or radio modules and we wanna use it for a campus event. I'm trying to figure out if I can make the brain think the ESP is a controller then use a standard Bluetooth controller with it. We aren't using the official receiver due to time constraints and shipping and the head of the club wants \"the programming team to put in some work\". Emulating the radio module could be interesting too.",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744225343.0,
+    "author": "Koolkid293",
+    "permalink": "/r/robotics/comments/1jvdu8h/vex_iq_generation_1_brain_with_esp32_emulating_a/"
+  },
+  {
+    "title": "Design for a purely mechanical robot arm?",
+    "body": "Like the old Radio-Shack Armatron \n\nOne that uses gears and stick shifts to actuate rather than a series of servos or pistons. \n\nWith 3D printers being as common as they are, you'd think this would be a lot more common, as you'd only need one motor to drive it. ",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744221322.0,
+    "author": "Pasta-hobo",
+    "permalink": "/r/robotics/comments/1jvc6d2/design_for_a_purely_mechanical_robot_arm/"
+  },
+  {
+    "title": "Collecting Robot Video Recording",
+    "body": "I have a pipe inspection robot with 6 cameras and I do not like my current NVR setup. It is all connected through ethernet. I am curious what you recommend for recording the video footage and keeping all the cameras in sync. Timestamp is very important. I want to record the Cameras and the screen of my control software simultaneously so I can go back and see what it looked like at specific distances. AI to detect girth welds would be a nice bonus. ",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744204159.0,
+    "author": "Zealousideal_Ad_8842",
+    "permalink": "/r/robotics/comments/1jv5dm7/collecting_robot_video_recording/"
+  },
+  {
+    "title": "Abb Backup save to Pendrive, possible during job?",
+    "body": "Hello, is it possible to save a backup file from ABB robots during automatic operation? Will it stop production?\n\nI haven't dared to try it so far, for fear of stopping production. :) I know that it is possible to save the event log during operation.",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744107571.0,
+    "author": "Potential_World_2421",
+    "permalink": "/r/robotics/comments/1jua5rm/abb_backup_save_to_pendrive_possible_during_job/"
+  },
+  {
+    "title": "Human Machine Collaboration: Optimizing Logistics - Rackenzik",
+    "body": "",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744105923.0,
+    "author": "Exchange-Internal",
+    "permalink": "/r/robotics/comments/1ju9rej/human_machine_collaboration_optimizing_logistics/"
+  },
+  {
+    "title": "Arms for rent ?",
+    "body": "I would like to rent a robotic arm with a reach of least 60cm and payload of 2kgs. Are there any options? It is for research purposes…(San Francisco, USA)",
+    "score": 1,
+    "url": "",
+    "created_utc": 1744072016.0,
+    "author": "Ok-Celebration-9536",
+    "permalink": "/r/robotics/comments/1ju0q5r/arms_for_rent/"
+  },
+  {
+    "title": "Question about mars rovers, for a compsci project:",
+    "body": "There are two different types of turns that 6 wheeled rovers can make. Since the middle wheels have no turning motors, of course, they cannot turn. In order for one pair of wheels to make a turn, they have to be facing the same direction. 6 Wheeled mars rovers not only have the ability to use this, but can also use the rear pair of wheels to turn the other direction in order for the rover to make an arc path. They also have the ability to make all wheels turn in order to make the rover make a zero-radius turn. My question is: Have any rovers made any ackerman turns on mars, or do they only just make zero-radius turns?",
+    "score": 1,
+    "url": "",
+    "created_utc": 1743969216.0,
+    "author": "Unique_Ad4547",
+    "permalink": "/r/robotics/comments/1jt2usj/question_about_mars_rovers_for_a_compsci_project/"
+  },
+  {
+    "title": "what kind of nets and mats for quadrotor flying arena?",
+    "body": "Hi everyone,\n\nI am developing an arena in my company where I can fly drones indoors with a MoCap setup. I wanted to ask my friends working in research labs, that what sort of net (material) should I be looking for? there are types like polypropylene, polyethylene and nylon.   \n  \nAlso, what sort of mats should I buy? I want something that is soft and has a smooth surface and can be interlocked with each other in order to cover up a big surface area.  \n  \nThanks :) ",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744512005.0,
+    "author": "iawdib_da",
+    "permalink": "/r/robotics/comments/1jxxsmc/what_kind_of_nets_and_mats_for_quadrotor_flying/"
+  },
+  {
+    "title": "Charcoal Drawing robot proposal",
+    "body": "So I have an idea for a drawing robot that instead draws with charcoal. Basically I want to know if my idea is viable. So the robot will look like a modified version of [this](https://howtomechatronics.com/projects/diy-pen-plotter-with-automatic-tool-changer-cnc-drawing-machine/) though it will have an eraser pencil and a crushed charcoal bottle that will first lay down on the paper, a smudge \"brush\" would then go through and smudge the the charcoal into the paper, then the eraser will take away the charcoal to get the entered result. I have an idea of how the code will work though I'm wondering the things to consider with the design and how it could work with say pressure to actually erase the charcoal and whatnot. Basically what challenges would this design face?",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744228685.0,
+    "author": "CaptainDoge07",
+    "permalink": "/r/robotics/comments/1jvf6fu/charcoal_drawing_robot_proposal/"
+  },
+  {
+    "title": "How do you make a working robot arm???",
+    "body": "so in my school, I’m on my last quarter of this year and we only have 1 assignment to make. i have to make a arm thats attached to my shoulder. I’ve done some research and i found not a-lot. I’m trying to figure out how to make my robot arm not tip or slouch on my shoulder when picking something up or just moving in general. i was thinking cables but it might restrict its moving capacity and capability. any help?",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744208697.0,
+    "author": "Jimmypoop12233",
+    "permalink": "/r/robotics/comments/1jv71yc/how_do_you_make_a_working_robot_arm/"
+  },
+  {
+    "title": "What is the role of cameras in pick and place robots?",
+    "body": "https://preview.redd.it/zw3fqre4sqte1.jpg?width=1200&amp;format=pjpg&amp;auto=webp&amp;s=4eab0c3f8d2851370502ad7d0f94bb0f06c3695e\n\n[Pick and place robots](https://www.e-consystems.com/blog/camera/applications/what-is-the-role-of-cameras-in-pick-and-place-robots/) play a crucial role across many industries, considering their ability to intelligently handle repetitive and labor-intensive tasks. They are generally used to pick up objects and place them in designated spots, operating across industries to achieve high throughput and streamlined workflows. Traditionally, pick and place robots depended on static programming, restricting their ability to adapt to changes in object orientation, size, or position.\n\nOver the past few years, however, state-of-the-art camera solutions have helped these robots unlock a new level of imaging intelligence. It has equipped them to leverage real-time data to analyze and interpret their surroundings before changing their actions.\n\nIn this article, you’ll get expert insights on the role of cameras in these robots, their main challenges, popular use cases, as well as measurable business benefits. [**Read more &gt;&gt;**](https://www.e-consystems.com/blog/camera/applications/what-is-the-role-of-cameras-in-pick-and-place-robots/)",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744175148.0,
+    "author": "Wonderful-Brush-2843",
+    "permalink": "/r/robotics/comments/1juy0wo/what_is_the_role_of_cameras_in_pick_and_place/"
+  },
+  {
+    "title": "How to make your own bldc motors or actuators ? Suggest me some really good books or tutorials or anything so that i can design my own",
+    "body": "Okay so i saw the video of Aaed Musa (https://www.youtube.com/watch?v=GakFB8Tdd98&amp;t=633s) where he designed his own bldc motor , I also looked for the  motor he used and that was eagle power 8308 90kv motor and the price was around 60 dollars ,but he managed to build the same bldc motor like this ,basically i was thinking if i could make my own motor i could save some money because i was thinking of making a robot dog but that would also require a motor driver and the motor driver which i found a good suitable for this eaglepower motor is odrive s1 from the youtuber mentioned above Aaed musa but this motor driver is really costly so I am actually looking for cheaper alternatives but I was really thinking of making something like this. ",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744131779.0,
+    "author": "Fun-Squirrel-4525",
+    "permalink": "/r/robotics/comments/1juin3p/how_to_make_your_own_bldc_motors_or_actuators/"
+  },
+  {
+    "title": "Robot driving a boat",
+    "body": "",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744040091.0,
+    "author": "FishingHQ",
+    "permalink": "/r/robotics/comments/1jto6dz/robot_driving_a_boat/"
+  },
+  {
+    "title": "Robot blinds me if I make a bad chess move",
+    "body": "One night, I played a game of chess with a friend. After I won, he made a comment that gave me the idea to build this stupid device.\nI’m not even a big chess guy, but I thought it would be an interesting challenge—so I gave it a shot.",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744067679.0,
+    "author": "ThECuBeR010",
+    "permalink": "/r/robotics/comments/1jtz7w3/robot_blinds_me_if_i_make_a_bad_chess_move/"
+  },
+  {
+    "title": "When robots fightback",
+    "body": "This insane footage shows a Unitree robot going head-to-head with a human opponent in a martial arts showdown! At just \\~100 pounds, this engineering marvel demonstrates incredible stability, power, and recovery abilities that left me speechless.\n\n[https://youtu.be/PtkowxvcTH4](https://youtu.be/PtkowxvcTH4)",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744460705.0,
+    "author": "Weak-Extent-7398",
+    "permalink": "/r/robotics/comments/1jxg3yw/when_robots_fightback/"
+  },
+  {
+    "title": "3D Printed Robotic Bicep Powered by 30Kg Servo",
+    "body": "This isn’t just a part — it’s the powerhouse of a robotic arm.\nA custom 3D-printed robotic bicep fitted with a 30Kg high torque servo motor, engineered for precision, speed, and raw strength. Ideal for AI-human interaction robots, competition bots, and bio-mech experiments.\n\nDesigned for future-ready robotics.\nBuilt to flex, fight, and function. 🔧⚡\n🧪 Engineered by: Bros.Inc\n\n#AIarms #MechaFlex #3DprintedStrength",
+    "score": 0,
+    "url": "",
+    "created_utc": 1744366186.0,
+    "author": "Brosincorp",
+    "permalink": "/r/robotics/comments/1jwmbv2/3d_printed_robotic_bicep_powered_by_30kg_servo/"
+  }
+]

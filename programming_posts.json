@@ -1,0 +1,802 @@
+[
+  {
+    "title": "Linus Torvalds built Git in 10 days - and never imagined it would last 20 years",
+    "body": "",
+    "score": 3515,
+    "url": "",
+    "created_utc": 1744368494.0,
+    "author": "CrankyBear"
+  },
+  {
+    "title": "Sam Altman says AI will make coders 10x more productive, not replace them — Even Bill Gates claims the field is too complex",
+    "body": "",
+    "score": 1581,
+    "url": "",
+    "created_utc": 1744091477.0,
+    "author": "fungussa"
+  },
+  {
+    "title": "Okta's CEO Says Software Engineers Will Be More in Demand, Not Less - Business Insider",
+    "body": "",
+    "score": 1254,
+    "url": "",
+    "created_utc": 1744230554.0,
+    "author": "BlazorPlate"
+  },
+  {
+    "title": "The Insanity of Being a Software Engineer",
+    "body": "",
+    "score": 1100,
+    "url": "",
+    "created_utc": 1743938221.0,
+    "author": "sousapereira"
+  },
+  {
+    "title": "Clever code is probably the worst code you could write",
+    "body": "",
+    "score": 585,
+    "url": "",
+    "created_utc": 1744486908.0,
+    "author": "Rtzon"
+  },
+  {
+    "title": "Senior Engineer tries Vibe Coding.",
+    "body": "",
+    "score": 567,
+    "url": "",
+    "created_utc": 1744139086.0,
+    "author": "floriandotorg"
+  },
+  {
+    "title": "AI coding mandates are driving developers to the brink",
+    "body": "",
+    "score": 555,
+    "url": "",
+    "created_utc": 1744118502.0,
+    "author": "scarey102"
+  },
+  {
+    "title": "NVIDIA Drops a Game-Changer: Native Python Support Hits CUDA",
+    "body": "",
+    "score": 494,
+    "url": "",
+    "created_utc": 1744197892.0,
+    "author": "codeagencyblog"
+  },
+  {
+    "title": "How to spoof a Pokémon Red Trade (with Go)",
+    "body": "This is a write up of some notes I took when I tried to spoof a Pokémon trade as a weekend project. Maybe someone here finds this interesting. :)",
+    "score": 384,
+    "url": "",
+    "created_utc": 1744280630.0,
+    "author": "nitwhiz"
+  },
+  {
+    "title": "OpenSSH 10 relies on standards for quantum-safe key exchange",
+    "body": "",
+    "score": 317,
+    "url": "",
+    "created_utc": 1744350330.0,
+    "author": "donutloop"
+  },
+  {
+    "title": "Writing C for curl | daniel.haxx.se",
+    "body": "",
+    "score": 288,
+    "url": "",
+    "created_utc": 1744030137.0,
+    "author": "yawaramin"
+  },
+  {
+    "title": "The “S” in MCP Stands for Security",
+    "body": "",
+    "score": 274,
+    "url": "",
+    "created_utc": 1744047265.0,
+    "author": "iamkeyur"
+  },
+  {
+    "title": "20 years of Git",
+    "body": "",
+    "score": 219,
+    "url": "",
+    "created_utc": 1744074142.0,
+    "author": "iamkeyur"
+  },
+  {
+    "title": "Tauri vs. Electron Benchmark: ~58% Less Memory, ~96% Smaller Bundle – Our Findings and Why We Chose Tauri",
+    "body": "",
+    "score": 202,
+    "url": "",
+    "created_utc": 1744355306.0,
+    "author": "kostakos14"
+  },
+  {
+    "title": "Hacking the PlayStation Boot Logo",
+    "body": "&gt;The classic PlayStation boot logo is actually a 3D model rendered real time from the disc. [Learn more](https://www.youtube.com/watch?v=duJAfH3S9zA) about how this works and the technical reasons behind this quirky design.\n\n&gt;The source code for extracting and patching PSX licenses is found at [GitHub](https://github.com/jbreckmckye/psx-license-tool)",
+    "score": 192,
+    "url": "",
+    "created_utc": 1744162993.0,
+    "author": "NXGZ"
+  },
+  {
+    "title": "PEP 750 – Template Strings has been accepted",
+    "body": "",
+    "score": 178,
+    "url": "",
+    "created_utc": 1744317690.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "A flowing WebGL gradient, deconstructed",
+    "body": "",
+    "score": 162,
+    "url": "",
+    "created_utc": 1744454768.0,
+    "author": "XLEX97"
+  },
+  {
+    "title": "6 usability improvements in GCC 15",
+    "body": "",
+    "score": 104,
+    "url": "",
+    "created_utc": 1744291699.0,
+    "author": "dmalcolm"
+  },
+  {
+    "title": "OpenSSL 3.5.0 now contains post-quantum procedures",
+    "body": "",
+    "score": 100,
+    "url": "",
+    "created_utc": 1744173670.0,
+    "author": "donutloop"
+  },
+  {
+    "title": "The Best Programmers I Know | Matthias Endler",
+    "body": "",
+    "score": 90,
+    "url": "",
+    "created_utc": 1744029448.0,
+    "author": "Xadartt"
+  },
+  {
+    "title": "Demystifying the #! (shebang): Kernel Adventures",
+    "body": "",
+    "score": 71,
+    "url": "",
+    "created_utc": 1744137065.0,
+    "author": "CrociDB"
+  },
+  {
+    "title": "Don't Mock Your Framework: Writing Tests You Won't Regret",
+    "body": "",
+    "score": 64,
+    "url": "",
+    "created_utc": 1744028762.0,
+    "author": "bezomaxo"
+  },
+  {
+    "title": "rsync replaced with openrsync on macOS Sequoia",
+    "body": "",
+    "score": 62,
+    "url": "",
+    "created_utc": 1744042391.0,
+    "author": "iamkeyur"
+  },
+  {
+    "title": "Ship Software That Does Nothing",
+    "body": "",
+    "score": 71,
+    "url": "",
+    "created_utc": 1744510579.0,
+    "author": "KerrickLong"
+  },
+  {
+    "title": "How we clone a running VM in 2 seconds",
+    "body": "",
+    "score": 55,
+    "url": "",
+    "created_utc": 1744398604.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "A surprising enum size optimization in the Rust compiler",
+    "body": "",
+    "score": 55,
+    "url": "",
+    "created_utc": 1744215799.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Erlang's not about lightweight processes and message passing",
+    "body": "",
+    "score": 51,
+    "url": "",
+    "created_utc": 1744398497.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Message Queues in 1 diagram and 180 words",
+    "body": "",
+    "score": 48,
+    "url": "",
+    "created_utc": 1744027813.0,
+    "author": "stmoreau"
+  },
+  {
+    "title": "Default styles for h1 elements are changing",
+    "body": "",
+    "score": 50,
+    "url": "",
+    "created_utc": 1744398741.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Why I chose Calendar Versioning for my open source project",
+    "body": "Hi all, last weekend I tagged the first version of Vigilant, an open-source, self hostable website monitoring application.\n\nI've received positive feedback which I am very happy with.\n\nI wanted to share why I chose for Calendar Versioning instead of the more traditional SemVer.\n\nLet me know what you think and if this is the best way for managing versions!\n\n",
+    "score": 48,
+    "url": "",
+    "created_utc": 1744305393.0,
+    "author": "DutchBytes"
+  },
+  {
+    "title": "How Does C Code Become Assembly",
+    "body": "",
+    "score": 43,
+    "url": "",
+    "created_utc": 1744215637.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Why I Value Firebreak Sprints for Managing Technical Debt",
+    "body": "",
+    "score": 37,
+    "url": "",
+    "created_utc": 1744101275.0,
+    "author": "Practical-Ideal6236"
+  },
+  {
+    "title": "Graphics programming like it’s 2000 – An esoteric introduction to PlayStation 2 graphics – Part 1",
+    "body": "",
+    "score": 33,
+    "url": "",
+    "created_utc": 1744370734.0,
+    "author": "NXGZ"
+  },
+  {
+    "title": "The E-Graph Data Structure",
+    "body": "",
+    "score": 34,
+    "url": "",
+    "created_utc": 1744247325.0,
+    "author": "self"
+  },
+  {
+    "title": "20 years of Git",
+    "body": "",
+    "score": 32,
+    "url": "",
+    "created_utc": 1744211313.0,
+    "author": "namanyayg"
+  },
+  {
+    "title": "Interactive Git Log – A Smarter Git GUI for VSCode",
+    "body": "[**Interactive Git Log**](https://marketplace.visualstudio.com/items?itemName=interactive-smartlog.interactive-smartlog) is a free VSCode extension I built to make Git more manageable — especially in shared repos where you collaborate through pull requests.\n\nIt shows only the branches and commits that are active in your workflow, so you’re not buried in noise. Uncommitted changes appear just like `git status`, and y**ou can run Git actions like committing, rebasing, resolving conflicts, and managing branches — all from the UI.**\n\nWhen paired with [GitHub CLI](https://cli.github.com/), it also shows PR status, CI results, and comment counts inline.\n\nIt’s inspired by Meta’s Smartlog (from the Sapling source control system), but adapted for Git.\n\nWould love feedback if you try it out.",
+    "score": 33,
+    "url": "",
+    "created_utc": 1744502220.0,
+    "author": "dashmn210"
+  },
+  {
+    "title": "I implemented HOTP & TOTP from scratch to understand how one-time passwords work",
+    "body": "I found 2FA and OTPs mysterious, so I decided to go deep on how they work and wrote my own HOTP/TOTP implementation. I have also explained how they work and idea behind them in this post.  \n  \nThe post walks through HMAC, time-based counters, dynamic truncation, and shares the code to a sample application.  \n  \nWould love feedback or suggestions!",
+    "score": 29,
+    "url": "",
+    "created_utc": 1744379147.0,
+    "author": "Dogacel"
+  },
+  {
+    "title": "I ditched my laptop for a pocketable mini PC and a pair of AR glasses — here’s what happened",
+    "body": "",
+    "score": 48,
+    "url": "",
+    "created_utc": 1744520633.0,
+    "author": "adamard"
+  },
+  {
+    "title": "How Indexes Work in Partitioned Databases",
+    "body": "",
+    "score": 28,
+    "url": "",
+    "created_utc": 1744425079.0,
+    "author": "scalablethread"
+  },
+  {
+    "title": "Crystal 1.16.0 is released!",
+    "body": "",
+    "score": 32,
+    "url": "",
+    "created_utc": 1744290706.0,
+    "author": "sdogruyol"
+  },
+  {
+    "title": "Bye-bye Three-way Handshake, and Hello to 0-RTT",
+    "body": "",
+    "score": 27,
+    "url": "",
+    "created_utc": 1744236380.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Remembering John Conway's FRACTRAN, a ridiculous, yet surprisingly deep language",
+    "body": "",
+    "score": 27,
+    "url": "",
+    "created_utc": 1744098906.0,
+    "author": "Kabra___kiiiiiiiid"
+  },
+  {
+    "title": "Unofficial Safety-Critical Software: how dangerous is this program anyway?",
+    "body": "Something I've been mulling over. Curious what folks think.",
+    "score": 29,
+    "url": "",
+    "created_utc": 1743954415.0,
+    "author": "me_again"
+  },
+  {
+    "title": "Employees Leading Themselves: The Power Of Self-Managed Teams At Work",
+    "body": "",
+    "score": 26,
+    "url": "",
+    "created_utc": 1744062839.0,
+    "author": "adamard"
+  },
+  {
+    "title": "The Y Combinator Explained in Python",
+    "body": "",
+    "score": 22,
+    "url": "",
+    "created_utc": 1744301333.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "The Deceptive Complexity of P2P Connections and the Solution We Found",
+    "body": "",
+    "score": 19,
+    "url": "",
+    "created_utc": 1744272988.0,
+    "author": "lets-p2p"
+  },
+  {
+    "title": "Oracle: Preparing for Post Quantum Cryptography",
+    "body": "",
+    "score": 19,
+    "url": "",
+    "created_utc": 1744348681.0,
+    "author": "donutloop"
+  },
+  {
+    "title": "How I use remind",
+    "body": "",
+    "score": 19,
+    "url": "",
+    "created_utc": 1744192397.0,
+    "author": "mr-figs"
+  },
+  {
+    "title": "Hacker News Hug of Deaf",
+    "body": "",
+    "score": 18,
+    "url": "",
+    "created_utc": 1744322071.0,
+    "author": "ChiliPepperHott"
+  },
+  {
+    "title": "The Invisible Difference",
+    "body": "",
+    "score": 17,
+    "url": "",
+    "created_utc": 1744206697.0,
+    "author": "yusufaytas"
+  },
+  {
+    "title": "Go Zero Values",
+    "body": "",
+    "score": 16,
+    "url": "",
+    "created_utc": 1744109265.0,
+    "author": "simon_o"
+  },
+  {
+    "title": "Advanced Messaging Patterns: Blackboard - For Zero-Copy Inter-Process Communication",
+    "body": "",
+    "score": 16,
+    "url": "",
+    "created_utc": 1744482710.0,
+    "author": "elfenpiff"
+  },
+  {
+    "title": "A Case for Lua Performance",
+    "body": "",
+    "score": 17,
+    "url": "",
+    "created_utc": 1744447851.0,
+    "author": "_Sharp_"
+  },
+  {
+    "title": "Quantum Physics & Computing for programming addicts",
+    "body": "I'm the developer of Quantum Odyssey and decided to go all out and make this series of quantum physics and computing videos that touch everything you need to know to start messing around with a quantum computer through the lens of my videogame.\n\nGive me your feedback! Is it a good practice to put these directly in the game?",
+    "score": 15,
+    "url": "",
+    "created_utc": 1744289847.0,
+    "author": "QuantumOdysseyGame"
+  },
+  {
+    "title": "The Best Programmers I Know",
+    "body": "",
+    "score": 17,
+    "url": "",
+    "created_utc": 1744218515.0,
+    "author": "iamkeyur"
+  },
+  {
+    "title": "Bridging Worlds: How we Unified gRPC and REST APIs in Rust",
+    "body": "",
+    "score": 15,
+    "url": "",
+    "created_utc": 1744113091.0,
+    "author": "c10n3x_"
+  },
+  {
+    "title": "Elevate Your Engineering Culture: The Power of Documenting Architecture Decisions",
+    "body": "",
+    "score": 14,
+    "url": "",
+    "created_utc": 1744013856.0,
+    "author": "Azdaroth"
+  },
+  {
+    "title": "Async from scratch 1: What's in a Future, anyway?",
+    "body": "",
+    "score": 14,
+    "url": "",
+    "created_utc": 1744301283.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Bilinear interpolation on a quadrilateral using Barycentric coordinates",
+    "body": "",
+    "score": 14,
+    "url": "",
+    "created_utc": 1744393744.0,
+    "author": "mariuz"
+  },
+  {
+    "title": "Elliptical Python Programming",
+    "body": "",
+    "score": 13,
+    "url": "",
+    "created_utc": 1744282409.0,
+    "author": "symbolicard"
+  },
+  {
+    "title": "Solving a \"Layton Puzzle\" with Prolog • Buttondown",
+    "body": "",
+    "score": 12,
+    "url": "",
+    "created_utc": 1744177646.0,
+    "author": "FoxInTheRedBox"
+  },
+  {
+    "title": "My Own Private Binary: An Idiosyncratic Introduction to Linux Kernel Modules",
+    "body": "",
+    "score": 10,
+    "url": "",
+    "created_utc": 1744317732.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Obituary for Cyc",
+    "body": "",
+    "score": 11,
+    "url": "",
+    "created_utc": 1744218558.0,
+    "author": "iamkeyur"
+  },
+  {
+    "title": "We should talk more about Architecture Congruency",
+    "body": "",
+    "score": 9,
+    "url": "",
+    "created_utc": 1744421037.0,
+    "author": "chrisza4"
+  },
+  {
+    "title": "Why I Program in Lisp",
+    "body": "",
+    "score": 10,
+    "url": "",
+    "created_utc": 1744398732.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Building Transformers from Scratch ... in Python",
+    "body": "The transformer architecture revolutionized the field of natural language processing when introduced in the landmark 2017 paper [*Attention is All You Need*](https://arxiv.org/abs/1706.03762). Breaking away from traditional sequence models, transformers employ **self-attention** mechanisms (more on this later) as their core building block, enabling them to capture long-range dependencies in data with remarkable efficiency. In essence, the transformer can be viewed as a general-purpose computational substrate—a programmable logical tissue that reconfigures based on training data and can be stacked as layers build large models exhibiting fascinating emergent behaviors.\n\n",
+    "score": 11,
+    "url": "",
+    "created_utc": 1744378802.0,
+    "author": "dtseng123"
+  },
+  {
+    "title": "Hiding elements that require JavaScript without JavaScript",
+    "body": "",
+    "score": 11,
+    "url": "",
+    "created_utc": 1744053866.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Apple’s Darwin OS and XNU Kernel Deep Dive",
+    "body": "",
+    "score": 9,
+    "url": "",
+    "created_utc": 1744053767.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Solving a “Layton Puzzle” with Prolog",
+    "body": "",
+    "score": 10,
+    "url": "",
+    "created_utc": 1744236155.0,
+    "author": "namanyayg"
+  },
+  {
+    "title": "Any program can be a GitHub Actions shell",
+    "body": "",
+    "score": 10,
+    "url": "",
+    "created_utc": 1744226236.0,
+    "author": "namanyayg"
+  },
+  {
+    "title": "gRPC API Gateway: Bridging the Gap Between REST and gRPC",
+    "body": "",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744388164.0,
+    "author": "ZuploAdrian"
+  },
+  {
+    "title": "Build Your Own Dynamic DNS with Cloudflare and Python in Minutes",
+    "body": "I needed a simple way to keep my Cloudflare DNS records up to date whenever my public IP address changes. So, I put together a lightweight Python script that does exactly that.\n\nCloudflare’s API is well-documented and super easy to use, which made the process smooth. As for getting the current public IP, I found that OpenDNS has an `A` record query that conveniently returns your IP — perfect for this use case.\n\nThe script is minimal, and I run it via a cronjob to automate everything.\n\nI’ve written a short Medium article with all the details (no paywall, of course!).  \nHope it’s helpful to anyone facing a similar need!",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744361650.0,
+    "author": "docaicdev"
+  },
+  {
+    "title": ".NET 10 Preview 3 — extension members, null-conditional assinment, and more",
+    "body": "",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744318245.0,
+    "author": "Atulin"
+  },
+  {
+    "title": "6 usability improvements in GCC 15",
+    "body": "",
+    "score": 7,
+    "url": "",
+    "created_utc": 1744316465.0,
+    "author": "JRepin"
+  },
+  {
+    "title": "Parser Combinators Beat Regexes",
+    "body": "",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744131535.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Happy FORTRAN DAY",
+    "body": "Happy FORTRAN DAY to those who celebrate\n\nMay all your systems be sufficiently bug-free to distribute\n\nhttps://functional.cafe/@racketlang/114299405695003141",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744116452.0,
+    "author": "sdegabrielle"
+  },
+  {
+    "title": "WebRTC for the Curious",
+    "body": "",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744398615.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Knowledge graphs, part 1 | Gel Blog",
+    "body": "",
+    "score": 6,
+    "url": "",
+    "created_utc": 1744394925.0,
+    "author": "1st1"
+  },
+  {
+    "title": "Programming in PostScript – Retro Coding Fun: Games on Your Printer",
+    "body": "I've been experimenting with PostScript programming over the past two years, creating several small games (Tic-Tac-Toe, Chess, Sokoban and Tetris) all running in Ghostscript or directly on printers.  \n  \nHere are my annotated slides about this quirky and fun journey, filled with insights, code snippets, and lessons learned.",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744377241.0,
+    "author": "Dull_Replacement8890"
+  },
+  {
+    "title": "Learning to Program with Haiku",
+    "body": "",
+    "score": 9,
+    "url": "",
+    "created_utc": 1744301033.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "We built an Open MCP Client to chat with any MCP server, self hosted and open source!",
+    "body": "",
+    "score": 7,
+    "url": "",
+    "created_utc": 1744220400.0,
+    "author": "nate4t"
+  },
+  {
+    "title": "Mercedes Bernard: Friendly Code Welcomes Everyone In",
+    "body": "",
+    "score": 9,
+    "url": "",
+    "created_utc": 1744127148.0,
+    "author": "robbyrussell"
+  },
+  {
+    "title": "[DEVLOG] Razen Language – Now with VS Code Extension + Major Updates",
+    "body": "Hey folks,  \nI’ve been building a small programming language called **Razen**, and I’m excited to share a big update. I’m 16, and this project started as a fun experiment — but it’s been growing steadily, and now it has its own **VS Code extension** to make working with it a lot more comfortable.\n\n# What is Razen?\n\nRazen is a lightweight, beginner-friendly language designed with flexibility and simplicity in mind. I wanted something that felt different from most traditional languages — more expressive, less rigid. It’s still in active development, but the idea is to make it both fun and functional.\n\n# What’s New?\n\n* **VS Code Extension** Now available with syntax highlighting and basic support. Makes writing Razen code way smoother.\n* **New Features &amp; Keywords** Added things like `razen:freestyle` for more open, dynamic logic. Also improved how variables work and cleaned up a lot of syntax.\n* **Core Improvements** Performance is better, codebase is more organized, and things are just more stable overall.\n\n# Try It Out\n\nIf you’re interested in language design, like playing with new ideas, or just want to see something built from scratch — give Razen a shot.\n\n**GitHub:** [https://github.com/BasaiCorp/Razen-Lang](https://github.com/BasaiCorp/Razen-Lang)\n\nOpen to feedback, thoughts, or contributions. Still early days, but I’m proud of how far it’s come. Thanks for reading!",
+    "score": 6,
+    "url": "",
+    "created_utc": 1744530893.0,
+    "author": "GladJellyfish9752"
+  },
+  {
+    "title": "A Guide to Bearer Tokens: JWT vs. Opaque Tokens",
+    "body": "",
+    "score": 4,
+    "url": "",
+    "created_utc": 1744373767.0,
+    "author": "Permit_io"
+  },
+  {
+    "title": "CAP Theorem Explained : The Simplest Explanation!",
+    "body": "# Theorem that can make or break your system design interview!\n\n  \nCheck out the article here : [https://scortier.substack.com/p/cap-theorem-explained](https://scortier.substack.com/p/cap-theorem-explained)",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744217089.0,
+    "author": "scortierHQ"
+  },
+  {
+    "title": "Mistakes and cool things to do with arena allocators",
+    "body": "",
+    "score": 8,
+    "url": "",
+    "created_utc": 1744183342.0,
+    "author": "Xadartt"
+  },
+  {
+    "title": "Decoding the 90s: Cryptography in Early Software Development",
+    "body": "",
+    "score": 6,
+    "url": "",
+    "created_utc": 1744043846.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "how data travels the world to reach your screen",
+    "body": "all that boring stuff like OSI, TCP/IP, HTTP, and TCP/UDP explained in a very simple way.",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744364634.0,
+    "author": "FederalRace5393"
+  },
+  {
+    "title": "Java 21 Coding Practice Example- Hospital Management System",
+    "body": "",
+    "score": 6,
+    "url": "",
+    "created_utc": 1744352265.0,
+    "author": "erdsingh24"
+  },
+  {
+    "title": "Purely Functional Sliding Window Aggregation Algorithm",
+    "body": "",
+    "score": 7,
+    "url": "",
+    "created_utc": 1744301326.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "Fifty Years of Open Source Software Supply Chain Security",
+    "body": "",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744211310.0,
+    "author": "namanyayg"
+  },
+  {
+    "title": "\"Verified\" \"Compilation\" of \"Python\" with Knuckledragger, GCC, and Ghidra",
+    "body": "",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744131560.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "OAK - Open Agentic Knowledge",
+    "body": "",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744024682.0,
+    "author": "aspleenic"
+  },
+  {
+    "title": "Super ppt: How to Code an Interactive Slide with Markdown and WL",
+    "body": "",
+    "score": 5,
+    "url": "",
+    "created_utc": 1744013168.0,
+    "author": "Inst2f"
+  },
+  {
+    "title": "Clojure: Realtime collaborative web apps without ClojureScript",
+    "body": "",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744398734.0,
+    "author": "ketralnis"
+  },
+  {
+    "title": "How Netflix Accurately Attributes eBPF Flow Logs",
+    "body": "",
+    "score": 6,
+    "url": "",
+    "created_utc": 1744236159.0,
+    "author": "namanyayg"
+  },
+  {
+    "title": "PostgreSQL BM25 Full-Text Search: Speed Up Performance with These Tips",
+    "body": "",
+    "score": 4,
+    "url": "",
+    "created_utc": 1744182486.0,
+    "author": "hallelujah-amen"
+  },
+  {
+    "title": "Identity Tokens Explained: Best Practices for Better Access Control",
+    "body": "",
+    "score": 4,
+    "url": "",
+    "created_utc": 1744175114.0,
+    "author": "Permit_io"
+  },
+  {
+    "title": "Kafka and .NET: Practical Guide to Building Event-Driven Services",
+    "body": "Hi everyone!!  \n  \nI just published a blog post on integrating Apache Kafka with .NET to build event-driven services, and I’d love to share it with you.\n\nThe post starts with a brief introduction to Kafka and its fundamentals, then moves on to a code-based example showing how to implement Kafka integration in .NET.\n\nHere’s what it covers:\n\n* Setting up Kafka with Docker\n* Producing events from [ASP.NET](http://ASP.NET) Core\n* Consuming events using background workers\n* Handling idempotency, offset commits, and Dead Letter Queues (DLQs)\n* Managing Kafka topics using the AdminClient\n\nIf you're interested in event-driven architecture and building event-driven services, this blog post should help you get started.\n\nRead it here: [https://hamedsalameh.com/kafka-and-net-practical-guide-to-building-event-driven-services/](https://hamedsalameh.com/kafka-and-net-practical-guide-to-building-event-driven-services/)\n\nI’d really appreciate your thoughts and feedback!",
+    "score": 4,
+    "url": "",
+    "created_utc": 1744093465.0,
+    "author": "DotDeveloper"
+  },
+  {
+    "title": "When should a compiler expand garbage collection barriers?",
+    "body": "",
+    "score": 3,
+    "url": "",
+    "created_utc": 1744053904.0,
+    "author": "ketralnis"
+  }
+]
